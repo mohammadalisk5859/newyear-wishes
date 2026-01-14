@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy New Year to all n</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="page2">
+
+<!-- Special Greeting Card for Farzana -->
+<div id="greetingCard" class="greeting-card hidden">
+    <div class="card-content">
+        <div class="card-header">
+            <span class="close-card" onclick="document.getElementById('greetingCard').classList.add('hidden')">✕</span>
+        </div>
+        <div class="card-body">
+            <div class="card-emoji">💕🌹✨</div>
+            <h2>Dear FARRU (58)</h2>
+            <p>As we step into this beautiful new year, I want you to know that you mean the world to me. You're not just my frnd , but u r something spcl that i cant explain , and my greatest blessing.</p>
+            <p>Every moment with you is a treasure, and every day you choose to be mine is a gift I'll never wanna loose u .</p>
+            <p>Thank you for being YOU - for your kindness, your laugh, your love, and for making my life infinitely more beautiful.</p>
+            <p class="signature">Here's to a year of endless love, laughter, and cherished moments together!</p>
+            <p class="from-ali">~ With all my love -59 ❤️</p>
+        </div>
+        <div class="card-footer">
+            <span class="sparkle">✨</span>
+            <span class="sparkle">💫</span>
+            <span class="sparkle">⭐</span>
+        </div>
+    </div>
+</div>
+
+<!-- Love-themed animated background -->
+<div class="love-background">
+    <div class="heart floating-heart" style="left: 10%; animation-delay: 0s;"></div>
+    <div class="heart floating-heart" style="left: 20%; animation-delay: 2s;"></div>
+    <div class="heart floating-heart" style="left: 35%; animation-delay: 4s;"></div>
+    <div class="heart floating-heart" style="left: 50%; animation-delay: 6s;"></div>
+    <div class="heart floating-heart" style="left: 65%; animation-delay: 3s;"></div>
+    <div class="heart floating-heart" style="left: 80%; animation-delay: 1s;"></div>
+    <div class="heart floating-heart" style="left: 90%; animation-delay: 5s;"></div>
+</div>
+
+<!-- Animated gradient overlay -->
+<div class="gradient-overlay"></div>
+
+<!-- Canvas for fireworks -->
+<canvas id="fireworks"></canvas>
+<div id="particles-container"></div>
+
+<!-- Animated light orbs -->
+<div class="light-orbs">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+</div>
+
+<div class="wish-box">
+    <div class="stars-background"></div>
+    
+    <!-- Decorative corner elements -->
+    <div class="corner-decoration top-left"></div>
+    <div class="corner-decoration top-right"></div>
+    <div class="corner-decoration bottom-left"></div>
+    <div class="corner-decoration bottom-right"></div>
+    
+    <h1 id="title" class="title-animated"></h1>
+    <p id="wishText" class="wish-text-animated"></p>
+    
+    <div class="button-container">
+        <button id="homeBtn" class="btn-secondary">🏠 Home</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
